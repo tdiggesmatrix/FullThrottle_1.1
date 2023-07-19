@@ -100,7 +100,7 @@
 
                     
                    <ul id="nav">
-                      <li><a href="default">Dashboard</a></li>
+                      <li><a href="default">Dashboard 1</a></li>
                       <li><a href="#">Audit</a>
                         <ul>
                           <li><a href="webform3">1.) CLOUD ID</a></li>
