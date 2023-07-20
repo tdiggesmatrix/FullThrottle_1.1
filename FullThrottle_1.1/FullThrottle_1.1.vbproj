@@ -205,21 +205,33 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\nav.css">
-      <DependentUpon>nav.scss</DependentUpon>
+      <DependentUpon>_nav.scss</DependentUpon>
     </Content>
     <Content Include="Content\nav.min.css">
       <DependentUpon>nav.css</DependentUpon>
     </Content>
     <Content Include="Content\Site.css" />
-    <Content Include="Content\styles.css" />
-    <Content Include="Content\styles.min.css">
-      <DependentUpon>styles.css</DependentUpon>
+    <Content Include="Content\style.css" />
+    <Content Include="Content\style.min.css">
+      <DependentUpon>style.css</DependentUpon>
     </Content>
-    <Content Include="Content\test.css">
-      <DependentUpon>test.scss</DependentUpon>
+    <Content Include="Content\testing.css">
+      <DependentUpon>_testing.scss</DependentUpon>
     </Content>
-    <Content Include="Content\test.min.css">
-      <DependentUpon>test.css</DependentUpon>
+    <Content Include="Content\testing.min.css">
+      <DependentUpon>testing.css</DependentUpon>
+    </Content>
+    <Content Include="Content\_nav.css">
+      <DependentUpon>_nav.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\_nav.min.css">
+      <DependentUpon>_nav.css</DependentUpon>
+    </Content>
+    <Content Include="Content\_styles.css">
+      <DependentUpon>_styles.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\_styles.min.css">
+      <DependentUpon>_styles.css</DependentUpon>
     </Content>
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
@@ -263,12 +275,13 @@
     <Content Include="WebForm2.aspx" />
     <Content Include="rptCloud.aspx" />
     <Content Include="WebForm3.aspx" />
-    <Content Include="Content\test.scss" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
-    <Content Include="Content\nav.scss" />
+    <Content Include="Content\_nav.scss" />
+    <Content Include="Content\_testing.scss" />
+    <Content Include="Content\_styles.scss" />
     <None Include="DataSet1.xsd">
       <SubType>Designer</SubType>
       <Generator>MSDataSetGenerator</Generator>

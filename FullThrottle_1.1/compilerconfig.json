@@ -1,10 +1,10 @@
 ﻿[
   {
-    "outputFile": "Content/styles.css",
-    "inputFile": "Content/test.scss"
+    "outputFile": "Content/style.css",
+    "inputFile": "Content/_styles.scss"
   },
   {
-    "outputFile": "Content/styles.css",
-    "inputFile": "Content/nav.scss"
+    "outputFile": "Content/_nav.css",
+    "inputFile": "Content/_nav.scss"
   }
 ]
